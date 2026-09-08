@@ -46,12 +46,14 @@ per-turn stats (`2.3s · 512→87 tokens`), live `ctx %` meter.
 (`cmyolo441-coder/8subagent-same-code` releases):**
 
 ```bash
-# Linux x64 — download fullagent-linux-x64 from the latest release,
-# then:
-chmod +x fullagent-linux-x64
-sudo mv fullagent-linux-x64 /usr/local/bin/fullagent
-fullagent --version
+curl -fsSL https://github.com/cmyolo441-coder/8subagent-same-code/releases/latest/download/fullagent-linux-x64 -o fullagent \
+  && chmod +x fullagent \
+  && sudo mv fullagent /usr/local/bin/fullagent \
+  && fullagent --version   # → 3.4.1
 ```
+
+Manual download: [Releases](https://github.com/cmyolo441-coder/8subagent-same-code/releases/latest)
+→ `fullagent-linux-x64`, then `chmod +x` + move to PATH.
 
 Windows (`fullagent-windows-x64.exe`) and macOS (`fullagent-darwin-arm64`) binaries
 are published the same way when built via the `build-binaries` workflow

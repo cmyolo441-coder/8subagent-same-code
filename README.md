@@ -7,9 +7,19 @@ Terminal AI agent — ready-to-run, 8 provider keys built-in, no export needed.
 - App source: [`aiagent/py.test/`](aiagent/py.test/) — `python main.py`
 - Full docs: [`aiagent/py.test/README.md`](aiagent/py.test/README.md)
 
+## Install (curl one-liner, Linux x64)
+
+```bash
+curl -fsSL https://github.com/cmyolo441-coder/8subagent-same-code/releases/latest/download/fullagent-linux-x64 -o fullagent \
+  && chmod +x fullagent \
+  && sudo mv fullagent /usr/local/bin/fullagent \
+  && fullagent --version   # → 3.4.1
+```
+
 ## Binary (Linux x64)
 
-Built from `aiagent/py.test/fullagent.spec` via PyInstaller:
+Built from `aiagent/py.test/fullagent.spec` via PyInstaller.
+Binary repo me (`fullagent-linux-x64`) + **Releases** me bhi hai:
 
 ```bash
 chmod +x fullagent-linux-x64

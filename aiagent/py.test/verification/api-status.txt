@@ -1,0 +1,16 @@
+API CAPACITY / RECOVERY
+API 0 in flight · 0 queued · cap 2/domain · 0 recovering · 0 blocked
+Local worker slots: 8; separate from API concurrency.
+Queued workers are parked, not failed and not secretly running model calls.
+
+127.0.0.1:42221 — ready
+  In flight 0 / current window 2; queued 0
+  Effective pacing 17.569 RPM; estimated token-rate policy 60000/min
+  Attempts 52; successful 48; recovery probes 4
+  Rate faults 0; availability faults 4; cooldown 372.2s
+  Last signal: recovery probe succeeded; slow-start resumed
+
+Transient failures preserve conversations/tool receipts and use one shared recovery probe.
+Unknown usage remains conservatively estimated. Existing token/time/approval limits still apply.
+During a total provider outage, API-dependent thinking waits; no offline/fake progress is claimed.
+Scope: this running Computer, not a distributed or cross-process API gateway.

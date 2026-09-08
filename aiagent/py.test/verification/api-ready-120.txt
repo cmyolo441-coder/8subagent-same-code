@@ -1,0 +1,16 @@
+ COMPUTER  /on  ·  READY  ·  ready  ·  00:00
+ 8 leads + 64 workers · active cap 8 · /vercel/sandbox/data/api-qa/ready-k_z0slpb
+ tokens 0 reported + 0 est. | reserved 0 | cap 400,000
+ API idle · start 1/domain · API cap 2 · /computer api
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ a1 Atlas  idle     0run 0wait 0/8   0t       0 tok Architecture, interfaces, integration and acceptance criteria
+ a2 Scout  idle     0run 0wait 0/8   0t       0 tok Primary sources, alternatives, licenses and evidence gaps
+ a3 Forge  idle     0run 0wait 0/8   0t       0 tok Core implementation and end-to-end functionality
+ a4 Link   idle     0run 0wait 0/8   0t       0 tok APIs, adapters, interoperability and failure handling
+ a5 Probe  idle     0run 0wait 0/8   0t       0 tok Regression, edge cases and meaningful automated tests
+ a6 Shield idle     0run 0wait 0/8   0t       0 tok Threat model, permissions, secrets and dependency risks
+ a7 Pulse  idle     0run 0wait 0/8   0t       0 tok Memory, latency, resource bounds and observability
+ a8 Guide  idle     0run 0wait 0/8   0t       0 tok Documentation, packaging, reproducibility and operation
+ leads 0/8 · workers 0/64 · checks 0/0 passed · sources 0
+ Type your project goal. Research uses your selected API model; no model call until you submit.
+ /computer tree a1 · pause|resume|cancel|report · Ctrl+C cancel · /off

@@ -1,0 +1,16 @@
+ FAMILY a3 · Forge · child-research
+ API 1 in flight · 58 queued · cap 2/domain · 0 recovering · 0 blocked
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ ID    ROLE      SESSION  TASK       TOKENS     TOOL ACTIVITY
+ a3.1  scout     running  unassigned      0 tok   0t admitted model/API request
+ a3.2  designer  waiting  unassigned      0 tok   0t API concurrency lane full; worker thread released
+ a3.3  builder   waiting  unassigned      0 tok   0t API concurrency lane full; worker thread released
+ a3.4  connector waiting  unassigned      0 tok   0t API concurrency lane full; worker thread released
+ a3.5  tester    waiting  unassigned      0 tok   0t API concurrency lane full; worker thread released
+ a3.6  auditor   waiting  unassigned      0 tok   0t API concurrency lane full; worker thread released
+ a3.7  optimizer waiting  unassigned      0 tok   0t API concurrency lane full; worker thread released
+ a3.8  finisher  waiting  unassigned      0 tok   0t API concurrency lane full; worker thread released
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ Family total: 0 charged tokens (incl. estimates) · 1 requests
+ Parent integration starts after all eight child assignments finish.
+ /computer inspect a3.1 · /computer tree overview · Ctrl+C cancel

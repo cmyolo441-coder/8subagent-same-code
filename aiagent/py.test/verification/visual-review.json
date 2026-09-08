@@ -1,0 +1,50 @@
+{
+  "api-ready-120": {
+    "result": "pass",
+    "observation": "Eight idle families show zero activity and separate initial API lane/cap; readable spacing and no overflow.",
+    "sha256": "6e251115f14fcb0fdb49bea9336234ff15d0212af081916054dfbab79c538113",
+    "scope": "Individually opened and visually inspected final pure-renderer PNG; local fixture, not live-cloud/full-TTY evidence."
+  },
+  "api-queue-80": {
+    "result": "pass",
+    "observation": "At 80 columns one blue running agent and seven orange waiters match the API queue; essential counters/footer fit.",
+    "sha256": "25a07218872fe60d5730c3012c472d962b29387c4867f00d15122f991bcb4258",
+    "scope": "Individually opened and visually inspected final pure-renderer PNG; local fixture, not live-cloud/full-TTY evidence."
+  },
+  "api-cooldown-120": {
+    "result": "pass",
+    "observation": "All eight workers are waiting, API active count and reserved tokens are zero, with one recovering domain; no false failure/completion.",
+    "sha256": "cbe971fbbfa6633351186308ce2c7cee614f3ce330a920571423be3a47f0f293",
+    "scope": "Individually opened and visually inspected final pure-renderer PNG; local fixture, not live-cloud/full-TTY evidence."
+  },
+  "api-probe-120": {
+    "result": "pass",
+    "observation": "One blue recovery-probe worker and seven orange waiters match the one in-flight request; labels and margins do not overlap.",
+    "sha256": "9b09794953ca5a338c3f8e862c7090abc4683a606629cf5277f5951f2110f849",
+    "scope": "Individually opened and visually inspected final pure-renderer PNG; local fixture, not live-cloud/full-TTY evidence."
+  },
+  "api-completed-120": {
+    "result": "pass",
+    "observation": "Eight green completed workers and two passed checks accompany zero queued/in-flight/reserved work; long history stays within bounds.",
+    "sha256": "0a82678500d28dd8b36a537a00163d5f7ee3ee15a9b10ab7b64d926a9e542118",
+    "scope": "Individually opened and visually inspected final pure-renderer PNG; local fixture, not live-cloud/full-TTY evidence."
+  },
+  "api-auth-blocked-120": {
+    "result": "pass",
+    "observation": "Needs-attention heading and red error rows correctly expose HTTP 401, one blocked domain, zero active calls and no fake success.",
+    "sha256": "a74aef114d0cb6dbd1a18212c9930b41b89804c371581b88b394408b37eadf7f",
+    "scope": "Individually opened and visually inspected final pure-renderer PNG; local fixture, not live-cloud/full-TTY evidence."
+  },
+  "api-hierarchy-queued-120": {
+    "result": "pass",
+    "observation": "Only the family with a running child is blue; waiting-only families show zero run counts in orange; eight rows fit.",
+    "sha256": "dac3ad1be0e73a7bea6100dd7fdeeffe0578dd83985fac27fb3d02c13635459d",
+    "scope": "Individually opened and visually inspected final pure-renderer PNG; local fixture, not live-cloud/full-TTY evidence."
+  },
+  "api-family-queued-120": {
+    "result": "pass",
+    "observation": "All eight child roles are visible; one running and seven waiting sessions remain distinct from unassigned implementation tasks.",
+    "sha256": "1b1a8ed61fd029dfd022b9c49f0d0816869fcc097724979e4100d31fd3db0666",
+    "scope": "Individually opened and visually inspected final pure-renderer PNG; local fixture, not live-cloud/full-TTY evidence."
+  }
+}

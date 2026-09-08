@@ -1,0 +1,20 @@
+ COMPUTER  /on  ·  COMPLETED  ·  review-0  ·  00:09
+ 8 agents · active cap 8 · /vercel/sandbox/data/api-qa/http-project-lq7jm7cd
+ tokens 3,840 reported + 32,932 est. | reserved 0 | cap 3,000,000
+ API 0 in flight · 0 queued · cap 2/domain · 0 recovering · 0 blocked
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ a1 Atlas  done     architect      3 tools     560 tok Fixture review inspected its own file
+ a2 Scout  done     researcher     3 tools     480 tok Fixture review inspected its own file
+ a3 Forge  done     implementer    2 tools   33332 tok Fixture review inspected its own file
+ a4 Link   done     integrator     3 tools     480 tok Fixture review inspected its own file
+ a5 Probe  done     tester         3 tools     480 tok Fixture review inspected its own file
+ a6 Shield done     security       3 tools     480 tok Fixture review inspected its own file
+ a7 Pulse  done     performance    3 tools     480 tok Fixture review inspected its own file
+ a8 Guide  done     delivery       3 tools     480 tok Fixture review inspected its own file
+ tasks 8/8 reported done · checks 2/2 passed · sources 0
+ a2 · api.wait: request-rate admission
+ a1 · agent.report: Fixture review inspected its own file
+ a2 · model.request: admitted request; 9252 tokens reserved
+ a2 · agent.report: Fixture review inspected its own file
+ system · mission.finished: completed
+ /computer tree a1 · pause|resume|cancel|report · Ctrl+C cancel · /off

@@ -1,0 +1,20 @@
+ COMPUTER  /on  ·  RUNNING  ·  child-research  ·  00:00
+ 8 leads + 64 workers · active cap 8 · /vercel/sandbox/data/api-qa/hierarchy-pburnpho
+ tokens 0 reported + 0 est. | reserved 4,747 | cap 400,000
+ API 1 in flight · 58 queued · cap 2/domain · 0 recovering · 0 blocked
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ a1 Atlas  waiting  0run 8wait 0/8   0t       0 tok a1.1 · API concurrency lane full; worker thread released
+ a2 Scout  waiting  0run 8wait 0/8   0t       0 tok a2.1 · API concurrency lane full; worker thread released
+ a3 Forge  running  1run 7wait 0/8   0t       0 tok a3.1 · admitted model/API request
+ a4 Link   waiting  0run 7wait 0/8   0t       0 tok a4.1 · API concurrency lane full; worker thread released
+ a5 Probe  waiting  0run 7wait 0/8   0t       0 tok a5.1 · API concurrency lane full; worker thread released
+ a6 Shield waiting  0run 7wait 0/8   0t       0 tok a6.1 · API concurrency lane full; worker thread released
+ a7 Pulse  waiting  0run 7wait 0/8   0t       0 tok a7.1 · API concurrency lane full; worker thread released
+ a8 Guide  waiting  0run 7wait 0/8   0t       0 tok a8.1 · API concurrency lane full; worker thread released
+ leads 0/8 · workers 0/64 · checks 0/0 passed · sources 0
+ a7.7 · api.wait: API concurrency lane full; worker thread released
+ a8.7 · api.wait: API concurrency lane full; worker thread released
+ a1.8 · api.wait: API concurrency lane full; worker thread released
+ a2.8 · api.wait: API concurrency lane full; worker thread released
+ a3.8 · api.wait: API concurrency lane full; worker thread released
+ /computer tree a1 · pause|resume|cancel|report · Ctrl+C cancel · /off

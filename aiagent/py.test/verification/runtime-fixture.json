@@ -1,0 +1,19 @@
+{
+  "scope": "Deterministic localhost model responses with actual HTTP, file writes, one approved counter command and real subprocess checks; accelerated scheduler time. Plus a held 72-session scheduler. Not live cloud, full TTY, speed or 4 GB hardware validation.",
+  "logical_agents_in_http_fixture": 8,
+  "actual_output_files": 8,
+  "simulated_api_failures_recovered": 4,
+  "counter_command_executions": 1,
+  "peak_actual_localhost_http_requests": 1,
+  "configured_api_cap_per_domain": 2,
+  "observed_worker_pool_threads": 8,
+  "hierarchical_sessions": 72,
+  "held_hierarchy_active_fixture_calls": 1,
+  "held_hierarchy_queued_sessions": 58,
+  "actual_checks_passed": true,
+  "terminal_status": "completed",
+  "fixture_process_peak_rss_mib": 51.23,
+  "permanent_authentication_faults": 1,
+  "permanent_authentication_status": "needs_attention",
+  "rendered_states": 8
+}

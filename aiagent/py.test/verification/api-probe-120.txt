@@ -1,0 +1,20 @@
+ COMPUTER  /on  ·  RUNNING  ·  building  ·  00:04
+ 8 agents · active cap 8 · /vercel/sandbox/data/api-qa/http-project-lq7jm7cd
+ tokens 1,440 reported + 8,233 est. | reserved 7,889 | cap 3,000,000
+ API 1 in flight · 7 queued · cap 2/domain · 1 recovering · 0 blocked
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ a1 Atlas  waiting  architect      1 tools     240 tok single recovery probe / older calls draining
+ a2 Scout  waiting  researcher     2 tools     240 tok family-fair API capacity queue
+ a3 Forge  waiting  implementer    1 tools    8393 tok single recovery probe / older calls draining
+ a4 Link   running  integrator     1 tools     160 tok recovery probe: model/API
+ a5 Probe  waiting  tester         1 tools     160 tok family-fair API capacity queue
+ a6 Shield waiting  security       1 tools     160 tok family-fair API capacity queue
+ a7 Pulse  waiting  performance    1 tools     160 tok family-fair API capacity queue
+ a8 Guide  waiting  delivery       1 tools     160 tok family-fair API capacity queue
+ tasks 0/8 reported done · checks 0/0 passed · sources 0
+ a8 · api.wait: family-fair API capacity queue
+ a5 · api.wait: family-fair API capacity queue
+ a4 · model.request: admitted recovery probe; 7889 tokens reserved
+ a1 · api.wait: single recovery probe / older calls draining
+ a3 · api.wait: single recovery probe / older calls draining
+ /computer tree a1 · pause|resume|cancel|report · Ctrl+C cancel · /off
